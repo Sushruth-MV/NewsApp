@@ -15,10 +15,10 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import java.util.List;
 public class NewsRepository {
-    private final NewsApiService apiService; // ✅ Declare apiService
+    private final NewsApiService apiService;
 
     public NewsRepository() {
-        // ✅ Initialize apiService using Retrofit
+
         apiService = RetrofitClient.getInstance().create(NewsApiService.class);
     }
 
