@@ -1,5 +1,6 @@
 package com.eassyshoping.newsapp.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -44,6 +45,16 @@ public class MainActivity extends AppCompatActivity {
         // ViewModel Setup
         newsViewModel = new ViewModelProvider(this).get(NewsViewModel.class);
         fetchNews();
+
+        newsAdapter.setOnItemClickListener(article -> {
+            Intent intent = new Intent(MainActivity.this, DetailActivity.class);
+            intent.putExtra("title", article.getTitle());
+            intent.putExtra("description", article.getDescription());
+            intent.putExtra("url", article.getUrl());
+            intent.putExtra("urlToImage", article.getUrlToImage());
+            startActivity(intent);
+        });
+
     }
 
     private void fetchNews() {

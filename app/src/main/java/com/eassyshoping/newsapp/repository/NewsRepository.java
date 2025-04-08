@@ -5,21 +5,25 @@ import android.util.Log;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
+
 import com.eassyshoping.newsapp.model.Article;
 import com.eassyshoping.newsapp.model.NewsResponse;
 import com.eassyshoping.newsapp.network.NewsApiService;
 import com.eassyshoping.newsapp.network.RetrofitClient;
 
+import java.util.List;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import java.util.List;
+
 public class NewsRepository {
     private final NewsApiService apiService;
 
     public NewsRepository() {
 
         apiService = RetrofitClient.getInstance().create(NewsApiService.class);
+
     }
 
     public LiveData<List<Article>> getArticles() {

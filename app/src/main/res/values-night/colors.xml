@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FFFFFFFF</color>
+    <color name="white">#FF000000</color>
+    <color name="progress_color">#90CAF9</color>
+    <color name="light_grey">#4A4A4A</color>
+    <color name="grey">#6E6E6E</color>
+
+    <color name="my_primary">#FF8A50</color>
+    <color name="backgroundPrimary">#121212</color>
+
+    <color name="my_secondary">#E6C305</color>
+    <color name="backgroundSecondary">#ECE6E6</color>
+
+    <color name="light_blue">#6EC6FF</color>
+    <color name="new1">#5C8E91</color>
+</resources>

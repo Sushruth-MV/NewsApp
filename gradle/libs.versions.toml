@@ -18,6 +18,8 @@ junit = "4.13.2"
 mockito = "5.8.0"
 mockitoInline = "5.2.0"
 archTesting = "2.2.0"
+navigationFragment = "2.8.6"
+navigationUi = "2.8.6"
 
 [libraries]
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
@@ -38,6 +40,8 @@ junit = { group = "junit", name = "junit", version.ref = "junit" }
 mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
 mockito-inline = { group = "org.mockito", name = "mockito-inline", version.ref = "mockitoInline" }
 arch-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "archTesting" }
+navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
