@@ -31,14 +31,14 @@ This is a simple yet scalable **News Reader App** built in **Java (Android)** us
 
 ##  Tech Stack
 
-| Layer         | Tools/Libraries Used                                |
-|---------------|-----------------------------------------------------|
-| Architecture  | MVVM (Model - ViewModel - Repository)               |
-| Network       | Retrofit + GSON + Coroutines                        |
-| Image Loading | Glide                                               |
-| UI            | RecyclerView, ConstraintLayout                      |
-| Language      | Java                                                |
-| Others        | LiveData, ViewModel, Intent navigation              |
+| Layer         | Tools/Libraries Used                   |
+|---------------|----------------------------------------|
+| Architecture  | MVVM (Model - ViewModel - Repository)  |
+| Network       | Retrofit + GSON                        |
+| Image Loading | Glide                                  |
+| UI            | RecyclerView, ConstraintLayout         |
+| Language      | Java                                   |
+| Others        | LiveData, ViewModel, Intent navigation |
 
 ---
 
