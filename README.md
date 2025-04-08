@@ -1,4 +1,4 @@
-# 🇺🇸 US Top Headlines - Android News App
+# Android News App
 
 This is a simple yet scalable **News Reader App** built in **Java (Android)** using **MVVM architecture**, fetching the latest top headlines from the **United States** via the [NewsAPI](https://newsapi.org/) and displaying additional like/comment data using Condé Nast internal APIs.
 
@@ -51,7 +51,7 @@ This is a simple yet scalable **News Reader App** built in **Java (Android)** us
     - Likes: `https://cn-news-info-api.herokuapp.com/likes/<ARTICLEID>`
     - Comments: `https://cn-news-info-api.herokuapp.com/comments/<ARTICLEID>`
 
- *Note:* `<ARTICLEID>` = article URL without scheme (http/https), with `/` replaced by `-`.
+*Note:* `<ARTICLEID>` = article URL without scheme (http/https), with `/` replaced by `-`.
 
 Example:  
 Original Article URL:  
